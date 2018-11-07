@@ -9,4 +9,5 @@ from bluelog import create_app
 
 app = create_app('production')
 
-app.run(port=5050)
+if __name__ == "__main__":
+	app.run(port=5050)
