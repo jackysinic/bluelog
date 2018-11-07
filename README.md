@@ -3,6 +3,7 @@
 *A blue blog.*
 
 author: Gery Li
+
 Demo: http://bluelog.helloflask.com
 
 ![Screenshot](http://helloflask.com/screenshots/bluelog.png)
