@@ -2,7 +2,7 @@
 
 *A blue blog.*
 
-author: Gery Li （https://github.com/greyli）
+author: Gery Li （ https://github.com/greyli ）
 
 Demo: http://bluelog.helloflask.com
 
