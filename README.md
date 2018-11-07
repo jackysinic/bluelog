@@ -2,12 +2,9 @@
 
 *A blue blog.*
 
-author: Gery Li
+author: Gery Li （https://github.com/greyli）
 
 Demo: http://bluelog.helloflask.com
-
-![Screenshot](http://helloflask.com/screenshots/bluelog.png)
-
 
 ## License
 
