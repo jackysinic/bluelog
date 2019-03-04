@@ -43,6 +43,7 @@ class BaseConfig(object):
     BLUELOG_SLOW_QUERY_THRESHOLD = 1
 
     # settings for img upload
+    CKEDITOR_ENABLE_CODESNIPPET = True
     CKEDITOR_SERVE_LOCAL = True
     CKEDITOR_HEIGHT = 400
     CKEDITOR_FILE_UPLOADER = 'admin.upload'

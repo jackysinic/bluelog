@@ -8,12 +8,12 @@
         <h1>New Post</h1>
     </div>
     {{ render_form(form) }}
-
 {% endblock %}
 
 {% block scripts %}
     {{ super() }}
     <script type="text/javascript" src="{{ url_for('static', filename='ckeditor/ckeditor.js') }}"></script>
+    {{ ckeditor.load() }}
     {{ ckeditor.config(name='body') }}
 
 {% endblock %}

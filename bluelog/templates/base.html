@@ -11,6 +11,7 @@
               href="{{ url_for('static', filename='css/%s.min.css' % request.cookies.get('theme', 'perfect_blue')) }}"
               type="text/css">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+    {{ ckeditor.load_code_theme() }}
     {% endblock head %}
 </head>
 <body>
@@ -24,7 +25,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
-                    {{ render_nav_item('blog.index', 'Posts') }}
+                    {{ render_nav_item('blog.index', 'Blogs') }}
                     {{ render_nav_item('blog.about', 'About') }}
                 </ul>
 
@@ -84,7 +85,6 @@
             <p class="float-left">
                 <small> &copy; 2018 Xinyu Chen. powered by
                     <a href="http://helloflask.com" title="A HelloFlask project">HelloFlask</a>
-                    &nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/">蜀ICP备18035227号</a>
                 </small>
             </p>
             <p class="float-right">
